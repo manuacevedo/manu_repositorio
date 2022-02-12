@@ -79,6 +79,19 @@ body{
     cursor: pointer;
         
 }
+
+.imagen-carrusel img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.imag-cards{
+    height: 250px;
+    width: 250px;
+}
+
      
 .zoom:hover {
     transform: scale(1.5); 
@@ -86,7 +99,7 @@ body{
 }
     
 
-h1 {
+h2 {
     animation-duration: 2s;
     animation-name: aparecer;
     animation-iteration-count: infinite;
