@@ -12,11 +12,36 @@
 </head>
 
 <body>
-    <header>
-        <h1>ChoroniTurismo</h1>
-        <h2>Comienza tu aventura!!</h2>
-    </header>
-    <div class="container-fluid">
+    
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light px-0 sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="index.html">ChoroniTurismo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navegador" id="navbarNavDropdown">
+            <ul class="navbar-nav ul_navegador">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="paquetes.html">Paquetes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li><li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--<div class="container-fluid">
         <div class="nav d-flex justify-content-between m-5">
             <div class="nav-item">
                 <div>
@@ -46,19 +71,19 @@
         </div>
         
         
-    </div> 
+    </div>--> 
     <div>
         <!--aca irian imagenes carrousel-->
-        <div id="carouselExampleControls" class="carousel slide"  data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="container_carousel carousel slide"  data-bs-ride="carousel">
             <div class="carousel-inner imagen-carrusel" >
               <div class="carousel-item active">
                 <img src="imagenes/choroni17.jpg" class="d-block" alt="choroni17">
               </div>
               <div class="carousel-item">
-                <img src="imagenes/choroni-1270x724_c.jpg" class="d-block" alt="choroni">
+                <img src="imagenes/imagen_choroniedit.png" class="d-block" alt="choroni">
               </div>
               <div class="carousel-item">
-                <img src="imagenes/buceo1.jpg" class="d-block" alt="buceo1">
+                <img src="imagenes/buceo2.png" class="d-block" alt="buceo1">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

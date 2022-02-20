@@ -1,20 +1,9 @@
- 
-@import url('https://fonts.googleapis.com/css2? family= Work+Sans & display=swap');
-
-
-
-
 
 body{
     
     background: linear-gradient(90deg, rgb(205, 204, 218) 0%, rgba(194,194,202,1) 10%, rgba(0,212,255,1) 100%);
     margin: 15px;
     font-size: 10px;
-}
-
-header{
-    width: auto;
-    
 }
 
 
@@ -54,14 +43,9 @@ ul li:hover ul {
 ul li a{
      text-decoration: none;
      font-size: 1rem;
-    /* font-family: Georgia, 'Times New Roman', Times, serif;
-     color:rgb(8, 2, 2);*/
-
+   
 
  }
-
-
-
 
 .footer li{
     display: block;
@@ -99,12 +83,7 @@ body{
 }
     
 
-h2 {
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-     
+
      
 @keyframes aparecer {
     0% {
@@ -128,6 +107,41 @@ h2 {
     display: inline-block;
 }
 
+.imagen_contacto{
+    width: 400px;    
+}
+
+.mapa{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.container_carousel{
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.logo{
+    display: flex;
+    display: inline-block;
+}
+
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul_navegador{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+}
 
 }
 
@@ -172,6 +186,9 @@ h2 {
     flex-wrap: wrap;
 }
 
+.contacto_section{
+    justify-content: auto;
+}
 
 
 

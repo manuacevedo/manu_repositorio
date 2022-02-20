@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2? family= Work+Sans & display=swap");
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#cdccda), color-stop(10%, #c2c2ca), to(#00d4ff));
+  background: linear-gradient(90deg, #cdccda 0%, #c2c2ca 10%, #00d4ff 100%);
+  margin: 15px;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 50px;
+    font-size: 20px;
+  }
+}
+
+.navegador {
+  margin: auto;
+  font-style: italic;
+  font-size: 5px;
+}
+
+.navegador li {
+  display: block;
+}
+
+.imagen {
+  height: 250px;
+  width: 250px;
+}
+
+li {
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  font-size: 15px;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+
+ul ul li {
+  display: block;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  /* font-family: Georgia, 'Times New Roman', Times, serif;
+     color:rgb(8, 2, 2);*/
+}
+
+.footer li {
+  display: block;
+}
+/*# sourceMappingURL=estilos.css.map */
