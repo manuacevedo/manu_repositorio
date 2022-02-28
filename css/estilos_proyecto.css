@@ -1,0 +1,194 @@
+
+body{
+    
+    background: linear-gradient(90deg, rgb(205, 204, 218) 0%, rgba(194,194,202,1) 10%, rgba(0,212,255,1) 100%);
+    margin: 15px;
+    font-size: 10px;
+}
+
+
+.navegador{
+    margin: auto;
+    font-style: italic;
+    font-size: 5px;
+    
+}
+
+.navegador li{
+    display: block;
+}
+
+.imagen{
+    height: 250px;
+    width: 250px;
+}
+
+li {
+    display: inline-block;
+    width: 10%;
+    position:relative;
+    font-size: 15px;
+}
+ul ul {
+    position: absolute;
+    display: none;
+}
+ul ul li {
+    display: block;
+}
+ul li:hover ul {
+    display:block;
+}
+ 
+ul li a{
+     text-decoration: none;
+     font-size: 1rem;
+   
+
+}
+
+.footer li{
+    display: block;
+    
+}
+
+@media screen and (min-width: 768px){
+    
+body{
+    margin: 50px;
+    font-size: 20px;
+}
+.zoom {
+    transition: transform .2s; 
+    cursor: pointer;
+        
+}
+
+.imagen-carrusel img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    align-items: center;
+}
+
+.imag-cards{
+    height: 250px;
+    width: 250px;
+}
+
+     
+.zoom:hover {
+    transform: scale(1.5); 
+    opacity: 1;
+}
+    
+
+
+     
+@keyframes aparecer {
+    0% {
+         opacity: 0;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+     
+.navegador{
+    font-size: 20px;
+        
+}
+
+.navegador li{
+    display: inline-block;
+}
+    
+.footer li{
+    display: inline-block;
+}
+
+.imagen_contacto{
+    width: 400px;    
+}
+
+.mapa{
+    width: 250px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.container_carousel{
+    padding-right: 500px;
+    padding-left: 500px;
+}
+
+.logo{
+    display: flex;
+    display: inline-block;
+}
+
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul_navegador{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+}
+
+}
+
+/* aca sigue la pag*/     
+.imagen{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+
+.imagen_paquetes{
+    height: 250px;
+    width: 250px;
+   
+}
+
+.galeria{
+    width: 100%;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    justify-items: center;
+    background-color: rgba(136, 121, 148, 0.377);
+    padding: 5px;
+    margin-bottom:20px;
+    box-sizing:border-box;
+    border-radius: 20px;
+}
+
+.galeria img{
+    width: 95%;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px
+
+
+}
+
+.contacto{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contacto_section{
+    justify-content: auto;
+}
+
+
+

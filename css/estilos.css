@@ -1,0 +1,47 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#cdccda), color-stop(10%, #c2c2ca), to(#00d4ff));
+  background: linear-gradient(90deg, #cdccda 0%, #c2c2ca 10%, #00d4ff 100%);
+  margin: 15px;
+  font-size: 10px;
+}
+
+body .navegador {
+  margin: auto;
+  font-style: italic;
+  font-size: 5px;
+}
+
+body .navegador li {
+  display: block;
+}
+
+body .imagen {
+  height: 250px;
+  width: 250px;
+}
+
+body li {
+  display: inline-block;
+  width: 10%;
+  position: relative;
+  font-size: 15px;
+}
+
+body ul ul {
+  position: absolute;
+  display: none;
+}
+
+body ul ul li {
+  display: block;
+}
+
+body ul li:hover ul {
+  display: block;
+}
+
+body ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+/*# sourceMappingURL=estilos.css.map */
